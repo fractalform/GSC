@@ -441,7 +441,6 @@ function hDateDay() {
     else if (gdoy == 352) {return '27';}
     else if (gdoy == 353) {return '28';}
 }
-function showGSC() {
+function getGSCdate() {
 	document.getElementById('timedate').innerHTML =  ((year) + '.' + '&nbsp;' + (hDateMonth()) + '.' + '&nbsp;' + (hDateDay()));
 }
- window.onload = showGSC();
